@@ -4,7 +4,7 @@ void setup() {
   pinMode(6, OUTPUT);
   pinMode(7, INPUT);   // or INPUT_PULLUP if using a button to GND
 }
-//comments
+
 void loop() {
 
   while (digitalRead(7) == HIGH) {
@@ -25,3 +25,4 @@ void loop() {
 }
 
 // Harry Tye
+//kevin
